@@ -1,0 +1,15 @@
+.btn {
+    margin-top: 15px;
+    padding: 0.6em 1.2em;
+    border-radius: 0.25em;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(120deg, darkmagenta, crimson, orange);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: background-position .5s;
+  }
+  
+  .btn:hover {
+    background-position: 0 0;
+  }
