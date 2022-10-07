@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(220.55deg, #565656 0%, #181818 100%);
+}
+.probar{
+    width: 300px;
+    height: 720px;
+    border-radius: 2px;
+    padding: 2px;
+    margin: 2px;
+    border-color: black;
+    margin:  5px;
+    background-color: black;
+    color: aliceblue;
+
+}
+.des{
+
+    height: 300px;
+    border: 1px;
+}
+
+.row{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(
+            300px,
+            1fr
+        )
+    )
+    
+
+
+}
+.dimension{
+    width: 500px;
+    height: 500px;
+}
+
+
+
